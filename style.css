@@ -1,0 +1,452 @@
+/* Google font link start */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+/* Google font link close */
+
+/* Univarsal tag selector style start */
+* {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Univarsal tag selector style close */
+
+/* sheared style start */
+.btn {
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  background: rgb(255, 89, 89);
+}
+/* sheared style close */
+
+/* Header section style start */
+.header-container {
+  max-width: 100vw;
+  height: 669px;
+  margin: auto auto;
+  background: url(assets/images/donation15.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header-content {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.header-content h2 {
+  color: rgb(255, 255, 255);
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.header-content p {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 1em;
+  opacity: 0.7;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+/* header section responsive  style start */
+@media screen and (max-width: 576) {
+  .header-container {
+    width: 100vw;
+  }
+}
+@media screen and (min-width: 576) and (max-width: 992) {
+  .header-container {
+    width: 100vw;
+  }
+}
+/* header section responsive style close */
+
+/* Header section style close */
+
+/* Donate today section start */
+.donate-container {
+  width: 100%;
+  height: auto;
+  margin: 100px auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.donate-container h2 {
+  color: black;
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.donate-container p {
+  color: black;
+  font-family: Poppins;
+  font-size: 1em;
+  opacity: 0.7;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.donate-amount {
+  width: 85%;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+.donate-amount div {
+  width: 150px;
+  height: 130px;
+  border-radius: 5px;
+  background: rgb(192, 190, 190);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.donate-amount div span {
+  font-size: 1.5em;
+}
+.donate-container hr {
+  width: 80%;
+  margin: auto auto;
+}
+.donate-container button {
+  margin-top: 30px;
+}
+/* Donate today responsive style start */
+@media screen and (max-width:576) {
+  .donate-container {
+    width: 100%;
+    margin: 0px auto;
+  }
+  .donate-container p {
+    margin: 20px;
+  }
+  .donate-amount {
+    width: 100%;
+    margin: 50px 0px;
+    gap: 10px;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 576) and (max-width: 992) {
+  .donate-container {
+    width: 100%;
+    margin: 0px auto;
+  }
+  .donate-container p {
+    margin: 20px;
+  }
+  .donate-amount {
+    width: 100%;
+    margin: 50px 0px;
+    gap: 10px;
+  }
+}
+
+/* Donate today responsive style close */
+
+/* Donate today section close */
+
+/* Donate plan section style start */
+.plan-container {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.plan-container h2 {
+  color: black;
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.plan-container p {
+  color: black;
+  font-family: Poppins;
+  font-size: 1em;
+  opacity: 0.7;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.plan-content {
+  width: 85%;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.plan-content div {
+  width: 360px;
+  text-align: start;
+  padding: 20px;
+  border-radius: 5px;
+}
+.plan-content div h4 {
+  color: black;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 20px 0px;
+}
+.plan-content p {
+  color: black;
+  font-family: Poppins;
+  font-size: 1em;
+  opacity: 0.7;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.plan-1 {
+  background: rgba(79, 157, 166, 0.1);
+}
+.plan-2 {
+  background: rgba(255, 89, 89, 0.1);
+}
+.plan-3 {
+  background: rgb(255, 244, 214);
+}
+/* Donate plan responsive style start */
+@media screen and (max-width: 576) {
+  .plan-container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .plan-content {
+    width: 95%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .plan-content div {
+    width: 360px;
+    height: 280px;
+  }
+}
+@media screen and (min-width: 576) and (max-width: 992) {
+  .plan-container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .plan-content {
+    width: 95%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .plan-content div {
+    width: 360px;
+    height: 280px;
+  }
+}
+/* Donate plan responsive style close */
+/* Donate plan section style close */
+
+/* How to contribute section style start */
+.contribute-container {
+  width: 100%;
+  margin: 100px 0px;
+}
+.contribute-content {
+  width: 85%;
+  margin: auto auto;
+}
+.contribute-1 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 40px auto;
+}
+.contribute-1-content {
+  width: 540px;
+}
+.contribute-1-content h3 {
+  color: black;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin: 20px auto;
+}
+.contribute-1-content p {
+  color: black;
+  font-family: Poppins;
+  font-size: 1em;
+  opacity: 0.7;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.contribute-1-img {
+  width: 540px;
+  height: 396px;
+}
+.contribute-1-img img {
+  width: 100%;
+  height: 100%;
+}
+.contribute-2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin: 40px auto;
+}
+.contribute-2-content {
+  width: 540px;
+}
+.contribute-2-content h3 {
+  color: black;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin: 20px auto;
+}
+.contribute-2-content p {
+  color: black;
+  font-family: Poppins;
+  font-size: 1em;
+  opacity: 0.7;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.contribute-2-img {
+  width: 540px;
+  height: 396px;
+}
+.contribute-2-img img {
+  width: 100%;
+  height: 100%;
+}
+/* How to contribute responsive style start */
+@media screen and (max-width: 576) {
+  .contribute-content {
+    width: 95%;
+    margin: auto auto;
+  }
+  .contribute-1 {
+    width: 100%;
+  }
+  .contribute-2 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576) and (max-width: 992) {
+  .contribute-content {
+    width: 95%;
+    margin: auto auto;
+  }
+  .contribute-1 {
+    width: 100%;
+  }
+  .contribute-2 {
+    width: 100%;
+  }
+}
+/* How to contribute responsive style close */
+/* How to contribute section style close */
+
+/* Get my update section style start */
+.update {
+  width: 100%;
+  text-align: center;
+}
+
+.update h2 {
+  color: black;
+  font-size: 3em;
+  font-weight: 700;
+  margin: 20px auto;
+}
+.update p {
+  color: black;
+  font-family: Poppins;
+  font-size: 1em;
+  opacity: 0.7;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.form {
+  width: 809px;
+  height: 200px;
+  margin: auto auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  background: rgb(255, 244, 214);
+}
+.form input {
+  width: 277px;
+  height: 48px;
+  border-radius: 5px 0px 0px 5px;
+  background: rgb(217, 217, 217);
+  border: none;
+  padding: 15px;
+}
+.form button {
+  border-radius: 0px 5px 5px 0px;
+}
+@media screen and (max-width:576px){
+  .update {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .update-content{
+    width:100%;
+  }
+  .form{
+    max-width:100%;
+  }
+  .form input{
+    max-width:60%;
+  }
+}
+/* Get my update section style close */
+
+/* footer section style start */
+footer{
+  width:100%;
+  height: 100px;
+  background: rgb(11, 13, 23);
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+footer h2{
+  color: rgb(255, 89, 89);
+font-family: Lobster;
+font-size: 2.5em;
+font-weight: 400;
+}
+footer p{
+  color: rgb(217, 219, 225);
+font-family: Manrope;
+font-size: 1em;
+font-weight: 400;
+}
+/* footer section style close */
